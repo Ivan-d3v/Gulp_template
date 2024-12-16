@@ -1,0 +1,25 @@
+:root {
+  --font-family: 'Onest', sans-serif; // Семейство шрифта по умолчанию
+
+  --font-weight-text: 400; // Жирность шрифта по умолчанию
+  --font-weight-semibold: 600;
+
+  --font-size-mob-base: 14px;
+  --font-size-mob-heading: 35px;
+  --font-size-mob-title: 22px;
+
+  --font-size-tab-base: 18px;
+  --font-size-tab-heading: 60px;
+  --font-size-tab-title: 35px;
+
+  --font-size-desk-base: 18px;
+  --font-size-desk-heading: 90px;
+  --font-size-desk-title: 50px;
+
+  --font-line-height: 1; // Базовая высота шрифта
+
+  --bs-transition: .3s ease-in-out;
+
+  --color-base-white: #FFFFFF;
+  --color-base-black: #000000;
+}
