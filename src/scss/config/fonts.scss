@@ -1,14 +1,105 @@
 @font-face {
-	font-family: Onest;
+	font-family: formular;
 	font-display: swap;
-	src: url("../fonts/Onest-Regular.woff2") format("woff2");
+	src: url("../fonts/formular-black-trial.woff2") format("woff2");
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-blackitalic-trial.woff2") format("woff2");
+	font-weight: 900;
+	font-style: italic;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-bold-trial.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-bolditalic-trial.woff2") format("woff2");
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-extralight-trial.woff2") format("woff2");
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-extralightitalic-trial.woff2") format("woff2");
+	font-weight: 200;
+	font-style: italic;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-light-trial.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-lightitalic-trial.woff2") format("woff2");
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-medium-trial.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-mediumitalic-trial.woff2") format("woff2");
+	font-weight: 500;
+	font-style: italic;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-mono-trial.woff2") format("woff2");
+	font-weight: undefined;
+	font-style: normal;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-regular-trial.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
-	font-family: Onest;
+	font-family: formular;
 	font-display: swap;
-	src: url("../fonts/Onest-SemiBold.woff2") format("woff2");
-	font-weight: 600;
+	src: url("../fonts/formular-regularitalic-trial.woff2") format("woff2");
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-ultra-italic-trial.woff2") format("woff2");
+	font-weight: undefined;
+	font-style: italic;
+}
+@font-face {
+	font-family: formular;
+	font-display: swap;
+	src: url("../fonts/formular-ultra-trial.woff2") format("woff2");
+	font-weight: undefined;
 	font-style: normal;
 }
