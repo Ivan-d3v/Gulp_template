@@ -269,6 +269,30 @@
                 </div>
             </footer>
         </div>
+        <div class="modal-overlay" id="requestModalOverlay">
+            <div class="modal-content request-modal-content">
+                <button class="modal-close" aria-label="Закрыть">×</button>
+                <h1>Оставить быструю заявку</h1>
+                <p>Оставьте контакты и мы сами вам позвоним для уточнения деталей доставки.</p>
+                <form id="requestModalForm">
+                    <div class="modal-form-group">
+                        <input type="text" id="modalName" name="name" class="modal-input" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="modal-form-group">
+                        <input type="tel" id="modalPhone" name="phone" class="modal-input" placeholder="Ваш телефон" required>
+                    </div>
+                    <div class="modal-form-group">
+                        <input type="email" id="modalEmail" name="email" class="modal-input" placeholder="Ваша почта">
+                    </div>
+                    <div class="modal-form-group">
+                        <textarea id="modalMessage" name="message" class="modal-textarea" placeholder="Что хотите привезти?"></textarea>
+                    </div>
+                    <button type="submit" class="modal-button modal-button-accept contact-button">Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="js/main.min.js"></script>
 </body>
 
 </html>
