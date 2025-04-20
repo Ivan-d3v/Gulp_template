@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>FromBoard Delivery - Доставка товаров из-за границы в Россию</title>
-    <link rel="stylesheet" href="css/main.min.css?_v=20250312181251">
+    <link rel="stylesheet" href="css/main.min.css?_v=20250420195757">
     </head>
 
     <body>
@@ -268,6 +268,30 @@
                 </div>
             </footer>
         </div>
+        <div class="modal-overlay" id="requestModalOverlay">
+            <div class="modal-content request-modal-content">
+                <button class="modal-close" aria-label="Закрыть">×</button>
+                <h1>Оставить быструю заявку</h1>
+                <p>Оставьте контакты и мы сами вам позвоним для уточнения деталей доставки.</p>
+                <form id="requestModalForm">
+                    <div class="modal-form-group">
+                        <input type="text" id="modalName" name="name" class="modal-input" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="modal-form-group">
+                        <input type="tel" id="modalPhone" name="phone" class="modal-input" placeholder="Ваш телефон" required>
+                    </div>
+                    <div class="modal-form-group">
+                        <input type="email" id="modalEmail" name="email" class="modal-input" placeholder="Ваша почта">
+                    </div>
+                    <div class="modal-form-group">
+                        <textarea id="modalMessage" name="message" class="modal-textarea" placeholder="Что хотите привезти?"></textarea>
+                    </div>
+                    <button type="submit" class="contact-button modal-button modal-button-accept">Отправить заявку</button>
+                    </form></div>
+                
+            </div>
+        
+        <script src="js/main.min.js?_v=20250420195757"></script>
 </body>
 
 </html>
